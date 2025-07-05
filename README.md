@@ -123,14 +123,18 @@ an F1-Score of approximately 1.1132 (training) and 1.0711 (validation) for the b
 for the stance model on unseen data was approximately 0.6069The models were evaluated on unseen data.The F1-Score,
 particularly the macro F1-Score, was reported as a performance metric.The macro F1-Score for the stance model was
 reported to be approximately 0.6069.
-Conclusion and Future work: In summary, my findings indicate that the LSTM model demonstrated superior
-performance in the context of tweet stance classification compared to the BERT model. The LSTM model was optimized
+
+
+Conclusion and Future work: 
+
+In summary, my findings indicate that the LSTM model demonstrated superior performance in the context of tweet stance classification compared to the BERT model. The LSTM model was optimized
 with specific hyperparameters: it benefitted from having 128 units for both the LSTM and Bidirectional LSTM layers, a
 dropout and recurrent dropout ratio of 0.2, and L2 regularization at 0.0001. Additionally, the model's performance was
 maximized with an Adam optimizer learning rate of 0.001. Moreover, it is worth noting that the tweet data available for
 this task contained a relatively limited amount of textual content, which could have impacted the model's ability to achieve
 optimal performance. Thus, drawing robust conclusions from our model's performance may be somewhat constrained by
 data limitations.
+
 In conclusion, the LSTM model emerged as the more effective choice for tweet stance classification. Still, the success of
 our approach could significantly benefit from improved data density, offering the potential to design more advanced
 architectures and achieve higher accuracies across various stance classes.
